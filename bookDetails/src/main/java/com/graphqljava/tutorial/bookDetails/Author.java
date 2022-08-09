@@ -14,7 +14,7 @@ public class Author {
         this.lastName = lastName;
     }
 
-    private static List<Author> authors = Arrays.asList(
+    public static List<Author> authors = Arrays.asList(
             new Author("author-1", "Joanne", "Rowling"),
             new Author("author-2", "Herman", "Melville"),
             new Author("author-3", "Anne", "Rice")
